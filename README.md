@@ -18,12 +18,12 @@ gemini extensions install /path/to/gemini-skills
 
 ### Nano Banana Pro (Image Generation)
 
-Generate images using Google's Gemini 2.5 Flash model.
+Generate images using Google's Gemini 2.5 Flash (Nano Banana Pro). See the [demo video](https://www.youtube.com/watch?v=614mXXCSsNY).
 
 **Triggers:** `generate image`, `create image`, `make image`, `nano banana`, `image-generation`
 
 **Prerequisites:**
-- [uv](https://docs.astral.sh/uv/) - Python package manager
+- [uv](https://docs.astral.sh/uv/) - Python package manager (required to run the image generation script). See the [uv installation walkthrough](https://youtu.be/DRdd4V1G4-k?t=80)
 - `GEMINI_API_KEY` environment variable with your [Google AI API key](https://aistudio.google.com/apikey)
 
 **Usage:**
